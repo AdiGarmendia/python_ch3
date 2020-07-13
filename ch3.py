@@ -16,7 +16,8 @@ for number in numbers_1_to_10:
     the_numbers_match = False
 
     # Iterate your random number list here
-
+    for random_number in my_randoms:
     # Does my_randoms contain number? Change the boolean.
-
-    print(f'{number} is in the random list')
+        if number == random_number: 
+            the_numbers_match = True
+            print(f'{number} is in the random list')
